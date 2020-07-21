@@ -1,0 +1,264 @@
+{
+	"@context": "https://w3id.org/xapi/profiles/context",
+	"id": "https://w3id.org/xapi/nice-framework",
+	"type": "Profile",
+	"conformsTo": "https://w3id.org/xapi/profiles#1.0",
+	"prefLabel": {
+		"en": "NICE FRAMEWORK"
+	},
+	"definition": {
+		"en": "Verbs and extensions for NICE FRAMEWORK"
+	},
+	"seeAlso": "NICE FRAMEWORK Website for updated documentation",
+	"versions": [
+		{
+			"id": "https://w3id.org/xapi/nice-framework/v1.0",
+			"generatedAtTime": "2020-07-21",
+			"wasRevisionOf": ["https://w3id.org/xapi/nice-framework"]
+		}
+	],
+	"author": {
+		"type": "Organization",
+		"name": "Lang Holloman"
+	},
+	"concepts": [
+		{
+			"id": "https://w3id.org/xapi/nice-framework/verbs/answered",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "answered"
+			},
+			"definition": {
+				"en": "Provide the required responses to a test, quiz, or question. Use with the 'KSA' extension with a value of 'K', with the 'category' extension with a value of 'Fact Learning', and with the 'interactivity level' extension with a value of 1 or 2."
+			}
+		},
+		{
+      "type": "ActivityType",
+      "id": "http://adlnet.gov/expapi/activities/attempt",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "attempt"
+      },
+      "definition": {
+        "en": "An attempt is a discrete set of learner experiences in an activity. This activity gives systems the ability to uniquely identify experiences when they may have happened in different interactions with the same activity."
+      }
+    },
+		{
+			"id": "https://w3id.org/xapi/dod-isd/verbs/authenticated",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "authenticated"
+			},
+			"definition": {
+				"en": "Validate. Use with the 'KSA' extension with a value of 'A', with the 'category' extension with a value of 'Valuing', and with the 'interactivity level' extension with a value of 3 or 4."
+			}
+		},
+		{
+			"id": "https://w3id.org/xapi/nice-framework/verbs/briefed",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "briefed"
+			},
+			"definition": {
+				"en": "Instruct or inform someone thoroughly, especially in preparation for a task. Use with the 'KSA' extension with a value of 'K', with the 'category' extension with a value of 'Fact Learning', and with the 'interactivity level' extension with a value of 1 or 2."
+			}
+		},
+		{
+			"id": "https://w3id.org/xapi/nice-framework/verbs/completed",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "completed"
+			},
+			"definition": {
+				"en": "Make something whole or perfect. Use with the 'KSA' extension with a value of 'A', with the 'category' extension with a value of 'Responding', and with the 'interactivity level' extension with a value of 2, 3, or 4."
+			}
+		},
+		{
+			"id": "https://w3id.org/xapi/nice-framework/verbs/completed-assignment",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "completed assignment"
+			},
+			"definition": {
+				"en": "Finish making or doing a given task. Use with the 'KSA' extension with a value of 'A', with the 'category' extension with a value of 'Responding', and with the 'interactivity level' extension with a value of 2, 3, or 4."
+			}
+		},
+		{
+			"id": "https://w3id.org/xapi/dod-isd/verbs/demonstrated",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "demonstrated"
+			},
+			"definition": {
+				"en": "Show or express a feeling or quality by ones actions. Use with the 'KSA' extension with a value of 'A', with the 'category' extension with a value of 'Responding', and with the 'interactivity level' extension with a value of 2, 3, or 4."
+			}
+		},
+		{
+			"id": "https://w3id.org/xapi/dod-isd/verbs/developed",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "developed"
+			},
+			"definition": {
+				"en": "Start to exist, experience, or possess. Use with the 'KSA' extension with a value of 'A', with the 'category' extension with a value of 'Innovation', and with the 'interactivity level' extension with a value of 3."
+			}
+		},
+		{
+			"id": "https://w3id.org/xapi/dod-isd/verbs/encoded",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "encoded"
+			},
+			"definition": {
+				"en": "Convert into a coded form. Use with the 'KSA' extension with a value of 'A', with the 'category' extension with a value of 'Responding', and with the 'interactivity level' extension with a value of 2, 3, or 4."
+			}
+		},
+		{
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/failed",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "failed"
+      },
+      "definition": {
+        "en": "Indicates the actor did not successfully pass an activity to a level of predetermined satisfaction."
+      }
+    },
+		{
+			"id": "https://w3id.org/xapi/nice-framework/verbs/innovated",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "innovated"
+			},
+			"definition": {
+				"en": "Introduce something new, especially a product. Use with the 'KSA' extension with a value of 'A', with the 'category' extension with a value of 'Innovation', and with the 'interactivity level' extension with a value of 3."
+			}
+		},
+		{
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/passed",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "passed"
+      },
+      "definition": {
+        "en": "Indicates the actor successfully passed an activity to a level of predetermined satisfaction."
+      },
+      "broader": ["http://adlnet.gov/expapi/verbs/completed"]
+    },
+		{
+			"id": "https://w3id.org/xapi/dod-isd/verbs/reported",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "reported"
+			},
+			"definition": {
+				"en": "Give a spoken or written account of something that one has observed, heard, done, or investigated; present oneself formally as having arrived at a particular place or as ready to do something. Use with the 'KSA' extension with a value of 'A', with the 'category' extension with a value of 'Responding', and with the 'interactivity level' extension with a value of 2, 3, or 4."
+			}
+		},
+		{
+      "type": "Verb",
+      "id": "http://adlnet.gov/expapi/verbs/scored",
+      "inScheme": "https://w3id.org/xapi/scorm/v1.0",
+      "prefLabel": {
+        "en": "scored"
+      },
+      "definition": {
+        "en": "Indicates a numerical value related to an actor's performance on an activity."
+      }
+    },
+		{
+			"id": "https://w3id.org/xapi/dod-isd/verbs/studied",
+			"inScheme": "https://w3id.org/xapi/dod-isd/v1.0",
+			"type": "Verb",
+			"prefLabel": {
+				"en": "studied"
+			},
+			"definition": {
+				"en": "Investigate and analyze a subject or situation in detail. Use with the 'KSA' extension with a value of 'A', with the 'category' extension with a value of 'Valuing', and with the 'interactivity level' extension with a value of 3 or 4."
+			}
+		},
+		{
+			"id": "https://w3id.org/xapi/nice-framework/extensions/interactivity-level",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "ContextExtension",
+			"prefLabel": {
+				"en": "interactivity level"
+			},
+			"definition": {
+				"en": "Levels of Interactivity are general classes of richness, sophistication and realism of interactivity the student experiences in Computer Based Training (CBT)."
+			},
+      "inlineSchema": "{\"type\": \"integer\", \"enum\": [1, 2, 3, 4]}"
+		},
+		{
+			"id": "https://w3id.org/xapi/nice-framework/extensions/category",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "ContextExtension",
+			"prefLabel": {
+				"en": "category"
+			},
+			"definition": {
+				"en": "A further descriptive level for verbs within As, K, Ss, and Ts."
+			},
+      "inlineSchema": "{\"type\": \"string\", \"enum\": [\"Fact Learning\", \"Rule Learning\", \"Procedure Learning\", \"Discrimination Learning\", \"Problem Solving\", \"Perception\", \"Gross Motor Skills\", \"Continuous Movement\", \"Readiness\", \"Mechanism\", \"Adaptation\", \"Origination\", \"Receiving\", \"Responding\", \"Valuing\", \"Competence\", \"Innovation\"]}"
+		},
+		{
+			"id": "https://w3id.org/xapi/nice-framework/extensions/a",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "ContextExtension",
+			"prefLabel": {
+				"en": "A"
+			},
+			"definition": {
+				"en": "Abilities"
+			},
+      "inlineSchema": "{\"type\": \"string\", \"enum\": [\"Abilities\"]}"
+		},
+		{
+			"id": "https://w3id.org/xapi/nice-framework/extensions/k",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "ContextExtension",
+			"prefLabel": {
+				"en": "K"
+			},
+			"definition": {
+				"en": "Knowledge"
+			},
+      "inlineSchema": "{\"type\": \"string\", \"enum\": [\"Knowledge\"]}"
+		},
+		{
+			"id": "https://w3id.org/xapi/nice-framework/extensions/ksa",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "ContextExtension",
+			"prefLabel": {
+				"en": "S"
+			},
+			"definition": {
+				"en": "Skills"
+			},
+      "inlineSchema": "{\"type\": \"string\", \"enum\": [\"Skills\"]}"
+		},
+		{
+			"id": "https://w3id.org/xapi/nice-framework/extensions/ksa",
+			"inScheme": "https://w3id.org/xapi/nice-framework/v1.0",
+			"type": "ContextExtension",
+			"prefLabel": {
+				"en": "T"
+			},
+			"definition": {
+				"en": "Tasks"
+			},
+      "inlineSchema": "{\"type\": \"string\", \"enum\": [\"Tasks\"]}"
+		}
+	]
+}
