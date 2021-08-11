@@ -11,7 +11,7 @@
      a schema:Organization;
      schema:name "Lang Holloman"
    ];
-   skos:definition "Verbs and extensions for use in creating NICE FRAMEWORK statements."@en;
+   skos:definition "Verbs and extensions for use in creating National Initiative for Cybersecurity Education - NICE FRAMEWORK statements."@en;
    skos:prefLabel "NICE FRAMEWORK"@en;
    <https://w3id.org/xapi/profiles/ontology#concepts> <https://w3id.org/xapi/nice-framework/verbs/answered>,
      <https://w3id.org/xapi/nice-framework/verbs/composed>,
