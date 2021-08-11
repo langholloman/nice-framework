@@ -4,7 +4,7 @@
 	"type": "Profile",
 	"conformsTo": "https://w3id.org/xapi/profiles#1.0",
 	"prefLabel": {
-		"en": "NICE FRAMEWORK"
+		"en": "National Initiative for Cybersecurity Education - NICE FRAMEWORK"
 	},
 	"definition": {
 		"en": "Verbs and extensions for NICE FRAMEWORK"
